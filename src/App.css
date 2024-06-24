@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+#root
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.main-container
+{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-card
+{
+    box-shadow: 5px 1px 5px #000000;
+    flex-wrap: wrap;
+    align-self: normal;
+    font-family: "Poppins";
+    width: 250px;
+    background-color: rgb(92, 21, 158);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.profile-img-online
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(62, 252, 62);
+    padding: 3px;
+    border-radius: 50%;
+}
+.profile-img-offline
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(245, 74, 74);
+    padding: 3px;
+    border-radius: 50%;
+}
+.Buttons button
+{
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    margin: 2px;
+}
+.message-btn
+{
+    background-color: rgb(56, 5, 105);
+    border:3px solid rgb(56, 5, 105);
+}
+.follow-btn{
+    background-color: transparent;
+    border:2px solid rgb(56, 5, 105);
+}
+.skills-container
+{
+
+    background-color: rgb(52, 41, 63);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+.skills-container ul li
+{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid rgb(125, 125, 125);
+    padding: 3px 10px;
+    font-size: 12px;
+    margin: 2px;
+}
