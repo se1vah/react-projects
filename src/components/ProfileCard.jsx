@@ -67,6 +67,6 @@ export const  ProfileCard = () => {
         {
             userData.map((data,index)=>(<Profile key={index} isOnline={data.isOnline} profileImg = {data.profileImg} fullName={data.fullName} role={data.role} skills={data.skills} />))
         }
-        </div>
+        </div> 
     )
 }
